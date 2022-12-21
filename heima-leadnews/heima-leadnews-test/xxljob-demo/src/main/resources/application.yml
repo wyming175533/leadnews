@@ -1,0 +1,13 @@
+server:
+  port: ${port:8881}
+
+
+xxl:
+  job:
+    admin:
+      addresses: http://localhost:8080/xxl-job-admin
+    executor:
+      #执行器
+      appname: xxl-job-executor-sample
+      #执行器监听的端口
+      port: ${executor.port:8787}

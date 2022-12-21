@@ -1,0 +1,6 @@
+minio:
+  accessKey: minio
+  secretKey: Centos-8-163855
+  bucket: leadnews
+  endpoint: http://43.140.194.170:9000
+  readPath: http://43.140.194.170:9000

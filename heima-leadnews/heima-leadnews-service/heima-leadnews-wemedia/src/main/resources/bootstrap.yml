@@ -1,0 +1,18 @@
+server:
+  port: 51803
+spring:
+  application:
+    name: leadnews-wemedia
+  cloud:
+    nacos:
+      username: nacos
+      password: Centos-8-0216
+      discovery:
+        server-addr: 43.140.194.170:8848
+      config:
+        server-addr: 43.140.194.170:8848
+        file-extension: yml
+tess4j:
+#  data-path: /chi_sim.traineddata
+  data-path: /Users/wangyiming/work/project/heima-leadnews/chi_sim.traineddata
+  language: chi_sim

@@ -1,0 +1,14 @@
+server:
+  port: 51804
+spring:
+  application:
+    name: leadnews-search
+  cloud:
+    nacos:
+      username: nacos
+      password: Centos-8-0216
+      discovery:
+        server-addr: 43.140.194.170:8848
+      config:
+        server-addr: 43.140.194.170:8848
+        file-extension: yml
